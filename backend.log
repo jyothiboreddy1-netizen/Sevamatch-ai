@@ -1,0 +1,257 @@
+INFO:     Started server process [31886]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     122.178.156.129:0 - "GET /health HTTP/1.1" 200 OK
+INFO:     122.178.156.129:0 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     122.178.156.129:0 - "GET / HTTP/1.1" 200 OK
+INFO:     122.178.156.129:0 - "HEAD /assets/index-CKAwUuLa.js HTTP/1.1" 200 OK
+INFO:     122.178.156.129:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:30ee:d25d:bdca:8bfe:0 - "GET / HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:30ee:d25d:bdca:8bfe:0 - "GET /assets/index-CKAwUuLa.js HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:30ee:d25d:bdca:8bfe:0 - "GET /assets/index-5GAB92g_.css HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:30ee:d25d:bdca:8bfe:0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     2401:4900:1ce0:79cf:a916:b9b7:f298:c2c1:0 - "GET / HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:30ee:d25d:bdca:8bfe:0 - "GET / HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:30ee:d25d:bdca:8bfe:0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET / HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /assets/index-5GAB92g_.css HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /assets/index-CKAwUuLa.js HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     2409:40f4:10fc:9909:8000:::0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities/recommended HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET / HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities/recommended HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities/recommended HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET / HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities/recommended HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities/recommended HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities?cause=Education HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities?cause=Education&mode=hybrid HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities?cause=Education&mode=remote HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities?cause=Education&mode=on-site HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities?cause=Education&mode=hybrid HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities?cause=Environment&mode=hybrid HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities?cause=Environment&mode=on-site HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities?cause=Environment&mode=remote HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities?cause=Environment&mode=hybrid HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities?cause=Environment&mode=on-site HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities?cause=Community&mode=on-site HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities?cause=Community&mode=remote HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities?cause=Community&mode=hybrid HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities?cause=Healthcare&mode=hybrid HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities?cause=Healthcare&mode=on-site HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities?cause=Healthcare&mode=remote HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities?cause=Healthcare&mode=hybrid HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET / HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities/recommended HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/opportunities/recommended HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/ngo/nearby-volunteers?radius_km=50 HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/profiles/me HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/ngo/applicants HTTP/1.1" 200 OK
+INFO:     2409:40f4:10fc:9909:8000:::0 - "GET /api/ngo/opportunities HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:30ee:d25d:bdca:8bfe:0 - "GET /assets/index-5GAB92g_.css HTTP/1.1" 304 Not Modified
+INFO:     2401:4900:1ce0:79cf:30ee:d25d:bdca:8bfe:0 - "GET /assets/index-CKAwUuLa.js HTTP/1.1" 304 Not Modified
+INFO:     2401:4900:1ce0:79cf:30ee:d25d:bdca:8bfe:0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET / HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /assets/index-5GAB92g_.css HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /assets/index-CKAwUuLa.js HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "GET / HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "GET /assets/index-5GAB92g_.css HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "GET /assets/index-CKAwUuLa.js HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "POST /api/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "POST /api/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "POST /api/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "POST /api/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "POST /api/auth/register HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/opportunities/recommended HTTP/1.1" 400 Bad Request
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "POST /api/auth/register HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "GET /api/opportunities/recommended HTTP/1.1" 400 Bad Request
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/opportunities HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "POST /api/applications HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/profiles/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "GET /api/opportunities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49967 - "GET /health HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:30ee:d25d:bdca:8bfe:0 - "GET /health HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/opportunities/recommended HTTP/1.1" 400 Bad Request
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/opportunities/recommended HTTP/1.1" 400 Bad Request
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/opportunities/recommended HTTP/1.1" 400 Bad Request
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/opportunities/recommended HTTP/1.1" 400 Bad Request
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/opportunities/recommended HTTP/1.1" 400 Bad Request
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/profiles/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "GET /api/opportunities/recommended HTTP/1.1" 400 Bad Request
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "GET /api/opportunities/recommended HTTP/1.1" 400 Bad Request
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:b46c:47b6:2265:9bca:0 - "GET /api/opportunities HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "POST /api/ai/profile-preview HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "PUT /api/profiles/volunteer/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/nearby/ngos?radius_km=50 HTTP/1.1" 400 Bad Request
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/opportunities/recommended?radius_km=50 HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/opportunities HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/opportunities/recommended HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/opportunities HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/profiles/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/opportunities/recommended HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/opportunities HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "POST /api/applications HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/profiles/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/ngo/applicants HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/ngo/opportunities HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/ngo/nearby-volunteers?radius_km=50 HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/ngo/applicants HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET / HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /assets/index-CKAwUuLa.js HTTP/1.1" 304 Not Modified
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /assets/index-5GAB92g_.css HTTP/1.1" 304 Not Modified
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/opportunities/recommended HTTP/1.1" 403 Forbidden
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 403 Forbidden
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/opportunities/recommended HTTP/1.1" 403 Forbidden
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/applications/me HTTP/1.1" 403 Forbidden
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/ngo/opportunities HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/ngo/applicants HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/profiles/me HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/ngo/nearby-volunteers?radius_km=50 HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/ngo/opportunities HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /api/profiles/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50160 - "GET /health HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:30ee:d25d:bdca:8bfe:0 - "GET /health HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:30ee:d25d:bdca:8bfe:0 - "GET /api/opportunities HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:30ee:d25d:bdca:8bfe:0 - "POST /api/auth/register HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:30ee:d25d:bdca:8bfe:0 - "GET / HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:30ee:d25d:bdca:8bfe:0 - "GET /assets/index-5GAB92g_.css HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:30ee:d25d:bdca:8bfe:0 - "GET /assets/index-CKAwUuLa.js HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:30ee:d25d:bdca:8bfe:0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     2401:4900:1ce0:79cf:30ee:d25d:bdca:8bfe:0 - "POST /api/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     2401:4900:1ce0:79cf:30ee:d25d:bdca:8bfe:0 - "GET / HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce0:79cf:30ee:d25d:bdca:8bfe:0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     2401:4900:1ce0:79cf:30ee:d25d:bdca:8bfe:0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET / HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /assets/index-CASX1q4X.js HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /assets/index-5GAB92g_.css HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET / HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /assets/index-5GAB92g_.css HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /assets/index-CASX1q4X.js HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "POST /api/auth/register HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/ngo/applicants HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/ngo/nearby-volunteers?radius_km=50 HTTP/1.1" 400 Bad Request
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/profiles/me HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/ngo/opportunities HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "POST /api/ngo/verify-demo HTTP/1.1" 400 Bad Request
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "POST /api/ngo/verify-demo HTTP/1.1" 400 Bad Request
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/profiles/me HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "POST /api/ai/profile-preview HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "PUT /api/profiles/ngo/me HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/profiles/me HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/ngo/applicants HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/ngo/opportunities HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/ngo/nearby-volunteers?radius_km=50 HTTP/1.1" 400 Bad Request
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "POST /api/ngo/verify-demo HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/ngo/opportunities HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/ngo/applicants HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/profiles/me HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/ngo/opportunities HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "POST /api/opportunities HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/ngo/opportunities HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/ngo/applicants HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/profiles/me HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/ngo/nearby-volunteers?radius_km=50 HTTP/1.1" 400 Bad Request
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/ngo/opportunities HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/ngo/nearby-volunteers?radius_km=10 HTTP/1.1" 400 Bad Request
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/ngo/nearby-volunteers?radius_km=100 HTTP/1.1" 400 Bad Request
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/ngo/nearby-volunteers?radius_km=200 HTTP/1.1" 400 Bad Request
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET / HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/ngo/nearby-volunteers?radius_km=100 HTTP/1.1" 400 Bad Request
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /assets/index-5GAB92g_.css HTTP/1.1" 200 OK
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /assets/index-CASX1q4X.js HTTP/1.1" 200 OK
+INFO:     2401:4900:1ce2:e685:8a4:5838:19e1:4874:0 - "GET /api/ngo/nearby-volunteers?radius_km=50 HTTP/1.1" 400 Bad Request
+INFO:     2401:4900:caba:5081:c887:25ff:fe33:27ad:0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     2409:40f4:1018:97ca:8000:::0 - "GET / HTTP/1.1" 200 OK
+INFO:     2409:40f4:1018:97ca:8000:::0 - "GET /assets/index-CASX1q4X.js HTTP/1.1" 200 OK
+INFO:     2409:40f4:1018:97ca:8000:::0 - "GET /assets/index-5GAB92g_.css HTTP/1.1" 200 OK
+INFO:     2409:40f4:1018:97ca:8000:::0 - "GET /api/opportunities/recommended HTTP/1.1" 401 Unauthorized
+INFO:     2409:40f4:1018:97ca:8000:::0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     2409:40f4:1018:97ca:8000:::0 - "GET /api/applications/me HTTP/1.1" 401 Unauthorized
+INFO:     2409:40f4:1018:97ca:8000:::0 - "GET /api/auth/me HTTP/1.1" 401 Unauthorized
+INFO:     2409:40f4:1018:97ca:8000:::0 - "GET /api/applications/me HTTP/1.1" 401 Unauthorized
+INFO:     2409:40f4:1018:97ca:8000:::0 - "GET / HTTP/1.1" 200 OK
+INFO:     2409:40f4:1018:97ca:8000:::0 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [31886]
